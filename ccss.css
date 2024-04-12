@@ -1,0 +1,50 @@
+  /* Adicione estilos CSS aqui */
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  h1 {
+      color: #333;
+      text-align: center;
+  }
+  
+  p {
+      line-height: 1.6;
+  }
+  
+  .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .image-container img {
+      width: 800px;
+      height: 600px;
+      border-radius: 8px;
+      padding: 8px;
+  }
+  
+  @media screen and (max-width: 560px) {
+      .image-container img {
+          width: 370px;
+          height: 250px;
+          border-radius: 8px;
+          padding: 8px;
+      }
+  }
